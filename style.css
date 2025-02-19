@@ -1,0 +1,55 @@
+/* Home */
+.hero {
+  height: 100vh;
+  width: 100%;
+  padding: 14rem;
+  background: url(img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  position: relative;
+  justify-content: center;
+}
+
+/* About */
+.text-start ul {
+  padding-left: 0; /* Hilangkan padding default pada ul */
+  list-style: none; /* Hilangkan bullet bawaan */
+}
+
+.text-start ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Tambahkan jarak antar item */
+}
+
+.text-start ul li strong {
+  min-width: 200px; /* Atur lebar agar semua label sejajar */
+  text-align: left;
+}
+
+.text-start ul li span:first-of-type {
+  margin-right: 8px; /* Jarak antara ":" dan teks */
+}
+
+/* Projects */
+#projects {
+  background-color: #636667;
+}
+
+#projects h2 {
+  color: white;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+/* Footer */
+footer {
+  background-color: #636667;
+}
+
+footer p {
+  color: white;
+}
